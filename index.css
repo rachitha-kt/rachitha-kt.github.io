@@ -1,0 +1,116 @@
+*{ box-sizing: border-box;}
+body{margin:0;
+    font-family:'Open Sans',sans-serif;
+
+}
+.row::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+[class*="col-"]{
+    float:left;
+    padding:10px;
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+.timeandfaq{
+    background-color:rgb(15, 1, 1);
+}
+
+.time{
+color:rgb(255, 0, 157);
+text-align:center;
+}
+.regi button{
+    background-color:rgb(54, 6, 42);
+    color:pink;
+    padding:10px 10px 10px 10px;
+    border:none;
+    float:right;
+}
+.menu{
+    margin-top:15px;
+}
+.logoandmenu{
+    background-color:rgba(27, 4, 41, 0.788);
+z-index:1001;
+width:100%;
+}
+.sticky{
+    position:fixed;
+    top:0;
+}
+
+.menu a{
+    text-decoration: none;
+    padding:5px 10px 10px 10px;
+   
+    color:red;
+   
+
+    
+}
+
+.menu a:hover{
+    background-color:yellow;
+}
+.active{
+    background-color:yellow;
+}
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+  
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    }
+    .producttext{
+        text-align:center;
+        background-color:rgba(255, 192, 203, 0.315);
+    padding:15px;
+    font-size:18px;
+    }
+    .producttext button{
+        background-color:rgb(6, 27, 37);
+        color:white;
+    }
+   .sticky{
+       position:fixed;
+       top:0;
+   }
